@@ -1,6 +1,11 @@
 import React from "react";
 import SmallHeading from "./shared/SmallHeading";
 import BigHeading from "./shared/BigHeading";
+import Image from "next/image";
+
+import DecentIcon from "../../public/assets/DECENT3D.svg";
+import DecentChart from "../../public/assets/CHART.svg";
+import DecentBrand from "../../public/assets//BRANDTAG.svg";
 
 export default function Insight() {
   return (
@@ -14,7 +19,7 @@ export default function Insight() {
       </div>
 
       {/* Main Insights */}
-      <section className="w-full mt-10 py-5">
+      <section className="w-full mt-10 py-5 lg:space-y-[5rem] space-y-[3rem]">
         {/* THE NAME GAME */}
         <div className="w-full flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
@@ -30,15 +35,33 @@ export default function Insight() {
           </div>
 
           {/* Image */}
-          <div className="w-full md:w-1/2 hidden md:flex"></div>
+          <div className="w-full md:w-1/2 hidden md:flex">
+            <Image
+              src={DecentIcon}
+              alt={"Decent 3D"}
+              width={300}
+              height={300}
+              priority
+              unoptimized
+            />
+          </div>
         </div>
 
         {/* THE DECENT TREND*/}
         <div className="w-full flex flex-col md:flex-row items-center gap-10">
           {/* Image */}
-          <div className="w-full md:w-1/2 hidden md:flex"></div>
+          <div className="w-full md:w-1/2 hidden md:flex">
+            <Image
+              src={DecentChart}
+              alt={"Decent Chart"}
+              width={150}
+              height={150}
+              priority
+              unoptimized
+            />
+          </div>
 
-          <div className="w-full md:w-1/2 mt-10">
+          <div className="w-full md:w-1/2 ">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
               THE DECENT TREND
             </h5>
@@ -46,6 +69,60 @@ export default function Insight() {
               Being DECENT refers to actively participating in and supporting
               the decentroneum ecosystem. In short, if you're encouraged to be
               DECENT, it means to get involved.
+            </p>
+          </div>
+        </div>
+
+        {/* THE BRAND */}
+        <div className="w-full flex flex-col md:flex-row items-center gap-10">
+          <div className="w-full md:w-1/2">
+            <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
+              THE BRAND
+            </h5>
+            <p>
+              In all the we do and are going to do, we are always going to
+              follow our brand guide. Our colors is always applied in our doing.
+              If you don't see our color shades, thne it is not{" "}
+              <span className=" font-bold">decentroneum.</span>
+            </p>
+          </div>
+
+          {/* Image */}
+          <div className="w-full md:w-1/2 hidden md:flex">
+            <Image
+              src={DecentBrand}
+              alt={"Decent Brand"}
+              width={150}
+              height={150}
+              priority
+              unoptimized
+            />
+          </div>
+        </div>
+
+        {/* THE INTEGRITY*/}
+        <div className="w-full flex flex-col md:flex-row items-center gap-10">
+          {/* Image */}
+          <div className="w-full md:w-1/2 hidden md:flex">
+            <Image
+              src={DecentIcon}
+              alt={"Decent 3D"}
+              width={300}
+              height={300}
+              priority
+              unoptimized
+            />
+          </div>
+
+          <div className="w-full md:w-1/2 ">
+            <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
+              THE INTEGRITY
+            </h5>
+            <p>
+              To back the fact of not to get involved in any form of
+              centralization, decentroneum will not be listing on a CEX
+              exchange. All 21 000, 000, 000 DECENT tokens will be initially
+              made availbale for trade on an ETN-SC DEX
             </p>
           </div>
         </div>
