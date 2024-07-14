@@ -4,12 +4,13 @@ import Logo from "../../public/assets/DECENT-ICON.svg";
 import LogoWord from "../../public/assets/DECENT-PRIMARY-WORD.svg";
 import { AlignJustify } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="flex justify-between items-center lg:px-32 md:px-10 px-5 max-w-7xl mx-auto pt-3">
       {/* Logo */}
-      <div className="w-1/2 flex items-center gap-5">
+      <Link className=" flex items-center gap-5 w-auto" href={"/"}>
         <Image src={Logo} alt="Decent Icon" width={50} height={50} priority />
         <Image
           src={LogoWord}
@@ -19,7 +20,7 @@ export default function Header() {
           priority
           className="hidden lg:flex"
         />
-      </div>
+      </Link>
 
       {/* Menu */}
       <Sheet>
