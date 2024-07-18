@@ -7,14 +7,15 @@ import DecentCard from "./shared/DecentCard";
 
 const tokenAllocation = [
   {
-    title: "Founders",
-    percent: "10%",
-    amount: "2, 100, 000, 000 DECENT",
+    title: "Founder",
+    percent: "5%",
+    amount: "1, 050, 000, 000 DECENT",
   },
   {
     title: "Airdrop",
-    percent: "5%",
-    amount: "1, 050, 000, 000 DECENT",
+
+    percent: "10%",
+    amount: "2, 100, 000, 000 DECENT",
   },
   {
     title: "Marketing",
@@ -32,7 +33,7 @@ const tokenAllocation = [
     amount: "2, 100, 000, 000 DECENT",
   },
   {
-    title: "DEX Liquidity",
+    title: "Exchange Liquidity",
     percent: "55%",
     amount: "11, 550, 000, 000 DECENT",
   },

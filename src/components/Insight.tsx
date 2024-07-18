@@ -19,12 +19,12 @@ export default function Insight() {
       </div>
 
       {/* Main Insights */}
-      <section className="w-full mt-10 py-5 lg:space-y-[5rem] space-y-[3rem]">
+      <section className="w-full mt-10 py-5 lg:space-y-[7rem] space-y-[3rem]">
         {/* THE NAME GAME */}
         <div className="w-full flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
-              THE NAME GAME
+              THE BRAND NAME
             </h5>
             <p>
               The name <span className=" font-bold">decentroneum</span> combines
@@ -43,6 +43,7 @@ export default function Insight() {
               height={300}
               priority
               unoptimized
+              className=" animate-pulse"
             />
           </div>
         </div>
@@ -58,6 +59,7 @@ export default function Insight() {
               height={150}
               priority
               unoptimized
+              className=" animate-pulse"
             />
           </div>
 
@@ -66,9 +68,10 @@ export default function Insight() {
               THE DECENT TREND
             </h5>
             <p>
-              Being DECENT refers to actively participating in and supporting
-              the decentroneum ecosystem. In short, if you're encouraged to be
-              DECENT, it means to get involved.
+              Being decent refers to actively participating in and supporting
+              the decentroneum ecosystem. we intgerchanged the word:
+              decentralize(d) to decent. You are encouraged to be decent, it
+              means to get involved.
             </p>
           </div>
         </div>
@@ -77,13 +80,15 @@ export default function Insight() {
         <div className="w-full flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
-              THE BRAND
+              THE BRAND LOYALTY
             </h5>
             <p>
-              In all the we do and are going to do, we are always going to
-              follow our brand guide. Our colors is always applied in our doing.
-              If you don't see our color shades, thne it is not{" "}
-              <span className=" font-bold">decentroneum.</span>
+              In past, present and moving forward, decentroneum will always
+              follow the brand guide. Our colors is always applied in our
+              doings. If you don't see an authentic representation of the decent
+              brand, then it is not{" "}
+              <span className=" font-bold">decentroneum.</span> It is not being
+              decent.
             </p>
           </div>
 
@@ -96,6 +101,7 @@ export default function Insight() {
               height={150}
               priority
               unoptimized
+              className=" animate-pulse"
             />
           </div>
         </div>
@@ -111,18 +117,18 @@ export default function Insight() {
               height={300}
               priority
               unoptimized
+              className=" animate-pulse"
             />
           </div>
 
           <div className="w-full md:w-1/2 ">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
-              THE INTEGRITY
+              THE BRAND INTEGRITY
             </h5>
             <p>
-              To back the fact of not to get involved in any form of
-              centralization, decentroneum will not be listing on a CEX
-              exchange. All 21 000, 000, 000 DECENT tokens will be initially
-              made availbale for trade on an ETN-SC DEX
+              As a total decent platform, all 21 000, 000, 000 DECENT tokens
+              will be initially made availbale for trade on an electronuem smart
+              chain DEX. There will be no listing on a CEX.
             </p>
           </div>
         </div>

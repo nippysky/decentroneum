@@ -33,69 +33,69 @@ const roadmap = [
   },
   {
     step: 2,
-    title: "Growing Together",
+    title: "The DECENT token deployment to the blockchain",
     description:
-      "The launch our telegram mini app and airdrops to spread the word and reward early supporters.",
+      "the DECENT token is created according to the defined specifications and deployed to the blockchain. This involves writing the smart contract and ensuring it meets the required standards and security protocols.",
     icon: Two,
   },
   {
     step: 3,
-    title: "Introducing Infinity Draw d-APP",
+    title: "Airdrops & The Whatsapp Channel",
     description:
-      "Get a feel for of an introductory decentralized application on the Electroneum Smart Chain.",
+      "Decentronuem willl be breaking new grounds by officially hosting a whatsapp channel for community members. There will be airdrops accross our various social mediums in various forms.",
     icon: Three,
   },
   {
     step: 4,
-    title: "Unveiling the decentralized NFT Platform",
+    title: "The DECENT Token Offer",
     description:
-      "Prepare to be amazed by the design and features of our upcoming NFT Marketplace, Panthart. Powered by the Eletroneum Smart Chain.",
+      " The DECENT token offer is conducted to raise funds for the project. This involves marketing, and managing the sale process.",
     icon: Four,
   },
 
   {
     step: 5,
-    title: "DECENT token launch",
+    title: "The DECENT Wallet",
     description:
-      "The DECENT Token will be deployed to the blockchain and ready for adoption in the ecosytem",
+      "Revealing and laucnching the decent wallet. The DECENT wallet will be powered by the electroneum smart chain by default and only for ETN-SC tokens.",
     icon: Five,
   },
 
   {
     step: 6,
-    title: "ITO Launch",
+    title: "Token Release and Distribution",
     description:
-      "Participate in the DECENT Initial Token Offering to fuel the future decentroneum.",
+      "DECENT tokens are officially released and distributed to the decent offer participants, airdrop recipients, and other stakeholders. This step ensures that everyone who has a stake in decentroneum receives their tokens.",
     icon: Six,
   },
 
   {
     step: 7,
-    title: "Claim Your Tokens",
+    title: "The DECENT Exchange",
     description:
-      "After the ICO, we'll distribute airdrop tokens, ICO tokens, and any other planned allocations based on lock periods.",
+      "This is the reveal and launch of the DECENT exchange (Decentralized exchange). Powered by electroenum smart chain for ETN-SC tokens only. At thsi stage the dECENT token will start trading live too.",
     icon: Seven,
   },
   {
     step: 8,
-    title: "Release another decentralized application",
+    title: "The Infinity Draw D-APP",
     description:
-      "Our second dApp will be a Platform ICO SaaS, allowing creators to launch their own ICOs on the Electroneum Smart Chain",
+      "A smart contract for a lucky draw is launched to engage the community and incentivize participation. This step aims to attract more users and create excitement around decentronuem and electroneum",
     icon: Eight,
   },
 
   {
     step: 9,
-    title: "DECENT trading take-off",
+    title: "Panthart: The NFT Platform",
     description:
-      "We'll list our token on a Decentralized Exchange (DEX) for easy trading.",
+      "The reveal and launch of the decent NFT platform. Panthart is a completety powered by the electronuem smart chain.",
     icon: Nine,
   },
   {
     step: 10,
-    title: "Continuity in development and innovation",
+    title: "Audit & Platform Project Continuuity",
     description:
-      "Platform and smart contract audit, and then continous innovation in the decent space.",
+      "A comprehensive audit of decentronuem. This step also involves planning for the future, including updates, new features, and continuous development.",
     icon: Ten,
   },
 ];
@@ -104,8 +104,14 @@ export default function Roadmap() {
   return (
     <section className="flex flex-col lg:px-32 md:px-10 px-5 py-20">
       <div className="text-center lg:px-40 px-5">
-        <SmallHeading title={"THE PLAN"} textColor="text-decentTextAlt" />
-        <BigHeading fontSize={"lg:text-[2.5rem]"} title={"Roadmap"} />
+        <SmallHeading
+          title={"THE INITIAL ROADMAP"}
+          textColor="text-decentTextAlt"
+        />
+        <BigHeading
+          fontSize={"lg:text-[2.5rem]"}
+          title={"Here is how we hit the ground running"}
+        />
       </div>
 
       {/* Render Roadmap */}

@@ -6,7 +6,13 @@ import { AlignJustify } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 
+const getRandomSide = (): "right" | "left" => {
+  return Math.random() < 0.5 ? "right" : "left";
+};
+
 export default function Header() {
+  const randomSide = getRandomSide();
+
   return (
     <header className="flex justify-between items-center lg:px-32 md:px-10 px-5 max-w-7xl mx-auto pt-3">
       {/* Logo */}
@@ -30,7 +36,10 @@ export default function Header() {
             className=" text-decentPrimary cursor-pointer"
           />
         </SheetTrigger>
-        <SheetContent className=" bg-decentPrimary"></SheetContent>
+        <SheetContent
+          side={randomSide}
+          className=" bg-decentPrimary w-full"
+        ></SheetContent>
       </Sheet>
     </header>
   );
