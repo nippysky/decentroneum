@@ -17,8 +17,8 @@ export default function Footer() {
           />
 
           <p className="lg:px-40 px-5 font-medium">
-            Empowering the Electroneum Ecosystem. Growing a decentralized
-            ecosystem by leveraging the Electroneum Smart Chain.
+            Growing a decentralized ecosystem by leveraging the Electroneum
+            Smart Chain.
           </p>
 
           <small className="font-semibold tracking-wider">

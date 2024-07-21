@@ -5,10 +5,31 @@ import LogoWord from "../../public/assets/DECENT-PRIMARY-WORD.svg";
 import { AlignJustify } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
+import MenuContent from "./MenuContent";
 
 const getRandomSide = (): "right" | "left" => {
   return Math.random() < 0.5 ? "right" : "left";
 };
+
+const socialMediums = [
+  {
+    name: "WhatsApp",
+    icon: <FaWhatsapp size={20} />,
+    url: "/",
+  },
+  {
+    name: "Telegram",
+    icon: <FaTelegramPlane size={20} />,
+    url: "/",
+  },
+  {
+    name: "X",
+    icon: <FaXTwitter size={20} />,
+    url: "/",
+  },
+];
 
 export default function Header() {
   const randomSide = getRandomSide();
@@ -28,19 +49,34 @@ export default function Header() {
         />
       </Link>
 
-      {/* Menu */}
-      <Sheet>
-        <SheetTrigger>
-          <AlignJustify
-            size={30}
-            className=" text-decentPrimary cursor-pointer"
-          />
-        </SheetTrigger>
-        <SheetContent
-          side={randomSide}
-          className=" bg-decentPrimary w-full"
-        ></SheetContent>
-      </Sheet>
+      {/* ////////////////////////////// */}
+      {/* SOCIALS AND MENU */}
+      <div className="flex justify-end gap-14 items-center">
+        <div className="flex space-x-5">
+          {socialMediums.map((social) => (
+            <Link
+              href={social.url}
+              key={social.name}
+              className="text-decentPrimary hover:text-white"
+            >
+              {social.icon}
+            </Link>
+          ))}
+        </div>
+
+        {/* Menu */}
+        <Sheet>
+          <SheetTrigger>
+            <AlignJustify
+              size={30}
+              className=" text-decentPrimary cursor-pointer hover:text-white"
+            />
+          </SheetTrigger>
+          <SheetContent side={randomSide} className=" bg-decentPrimary w-full">
+            <MenuContent />
+          </SheetContent>
+        </Sheet>
+      </div>
     </header>
   );
 }

@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ScrollUp from "@/components/shared/ScrollUp";
 
 const FONT = DM_Sans({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
         <Header />
         <main className="max-w-7xl flex flex-col mx-auto">{children}</main>
         <Footer />
+        <ScrollUp />
       </body>
     </html>
   );

@@ -6,11 +6,11 @@ import DecentCard from "./shared/DecentCard";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
-const socialMediums = [
+export const socialMediums = [
   {
     name: "WhatsApp",
     icon: <FaWhatsapp size={50} />,
-    desc: "Join our channel group for questions and Decentroneum community vibes.",
+    desc: "Follow the channel for fast updates and web3 memes.",
     url: "/",
   },
   {
@@ -22,7 +22,7 @@ const socialMediums = [
   {
     name: "X",
     icon: <FaXTwitter size={50} />,
-    desc: "Follow for the latest announcements and DeFi on ETN-SC discussions.",
+    desc: "Follow for the latest announcements and discussions on ETN-SC discussions.",
     url: "/",
   },
 ];

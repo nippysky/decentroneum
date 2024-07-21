@@ -24,7 +24,7 @@ export default function Hero() {
 
         <div className=" flex items-center gap-5 md:gap-10 text-decentPrimary font-medium uppercase mt-10 tracking-wider w-full justify-center flex-col md:flex-row">
           <Link
-            href={"/"}
+            href={"/d-apps"}
             className=" flex items-center gap-3 hover:text-white transition duration-300 ease-in-out"
           >
             <MdApps size={25} />
