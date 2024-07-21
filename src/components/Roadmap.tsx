@@ -26,76 +26,72 @@ import Road from "../../public/assets/ROAD.svg";
 const roadmap = [
   {
     step: 1,
-    title: "Platform Genesis",
+    title: "Platform Launch & Vision",
     description:
-      "Social media setup for the community and decent-paper presentation to see the vision for the future.",
+      "Establish a social media presence and present the DECENT paper, outlining the future vision of Decentroneum.",
     icon: One,
   },
   {
     step: 2,
-    title: "The DECENT token deployment to the blockchain",
+    title: "DECENT Token Deployment",
     description:
-      "the DECENT token is created according to the defined specifications and deployed to the blockchain. This involves writing the smart contract and ensuring it meets the required standards and security protocols.",
+      "Create and deploy the DECENT token to the blockchain according to defined specifications. This involves writing a secure smart contract that meets industry standards.",
     icon: Two,
   },
   {
     step: 3,
-    title: "Airdrops & The Whatsapp Channel",
+    title: "DECENT Token Offering",
     description:
-      "Decentronuem willl be breaking new grounds by officially hosting a whatsapp channel for community members. There will be airdrops accross our various social mediums in various forms.",
+      "Conduct a DECENT token offering to raise funds from early investors. This includes marketing and managing the sale process.",
     icon: Three,
   },
   {
     step: 4,
-    title: "The DECENT Token Offer",
+    title: "Airdrop for Early Investors",
     description:
-      " The DECENT token offer is conducted to raise funds for the project. This involves marketing, and managing the sale process.",
+      "Distribute DECENT tokens via airdrop to participants in the DECENT token offering. The amount received will be proportional to their allocation in the offering.",
     icon: Four,
   },
-
   {
     step: 5,
-    title: "The DECENT Wallet",
+    title: "Public Airdrop",
     description:
-      "Revealing and laucnching the decent wallet. The DECENT wallet will be powered by the electroneum smart chain by default and only for ETN-SC tokens.",
+      "Conduct a public airdrop as a marketing strategy to attract new community members.",
     icon: Five,
   },
-
   {
     step: 6,
     title: "Token Release and Distribution",
     description:
-      "DECENT tokens are officially released and distributed to the decent offer participants, airdrop recipients, and other stakeholders. This step ensures that everyone who has a stake in decentroneum receives their tokens.",
+      "Officially release and distribute DECENT tokens to DECENT token offering participants, airdrop recipients, and other stakeholders. This ensures everyone with a stake in Decentroneum receives their tokens.",
     icon: Six,
   },
-
   {
     step: 7,
-    title: "The DECENT Exchange",
+    title: "DECENT Exchange Launch",
     description:
-      "This is the reveal and launch of the DECENT exchange (Decentralized exchange). Powered by electroenum smart chain for ETN-SC tokens only. At thsi stage the dECENT token will start trading live too.",
+      "Launch the DECENT exchange, a decentralized exchange powered by the Electroneum Smart Chain (ETN-SC) tokens. The DECENT token will also begin trading here.",
     icon: Seven,
   },
   {
     step: 8,
-    title: "The Infinity Draw D-APP",
+    title: "Infinity Draw DApp Launch",
     description:
-      "A smart contract for a lucky draw is launched to engage the community and incentivize participation. This step aims to attract more users and create excitement around decentronuem and electroneum",
+      "Launch a smart contract for a lucky draw DApp (decentralized application) to engage the community and incentivize participation. This aims to attract more users and generate excitement around Decentroneum and Electroneum.",
     icon: Eight,
   },
-
   {
     step: 9,
-    title: "Panthart: The NFT Platform",
+    title: "DECENT Wallet Launch",
     description:
-      "The reveal and launch of the decent NFT platform. Panthart is a completety powered by the electronuem smart chain.",
+      "Launch the DECENT wallet, initially powered by the Electroneum Smart Chain and supporting ETN-SC tokens only.",
     icon: Nine,
   },
   {
     step: 10,
-    title: "Audit & Platform Project Continuuity",
+    title: "Audit & Ongoing Development",
     description:
-      "A comprehensive audit of decentronuem. This step also involves planning for the future, including updates, new features, and continuous development.",
+      "Conduct a comprehensive audit of Decentroneum. This stage also involves continuous development, addressing any identified issues, and incorporating updates and new features.",
     icon: Ten,
   },
 ];

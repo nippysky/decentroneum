@@ -18,8 +18,8 @@ export default function Hero() {
           title={"Empowering the Electroneum Ecosystem."}
         />
         <p>
-          Growing a decentralized ecosystem by leveraging the Electroneum Smart
-          Chain.
+          Growing a decentralized ecosystem by building a seamless and
+          accessible Web3 for all.
         </p>
 
         <div className=" flex items-center gap-5 md:gap-10 text-decentPrimary font-medium uppercase mt-10 tracking-wider w-full justify-center flex-col md:flex-row">

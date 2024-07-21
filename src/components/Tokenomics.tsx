@@ -7,35 +7,34 @@ import DecentCard from "./shared/DecentCard";
 
 const tokenAllocation = [
   {
-    title: "Founder",
+    title: "Project Team",
     percent: "5%",
-    amount: "1, 050, 000, 000 DECENT",
+    amount: "10, 500, 000 DECENT",
   },
   {
     title: "Airdrop",
-
-    percent: "10%",
-    amount: "2, 100, 000, 000 DECENT",
+    percent: "15%",
+    amount: "31, 500, 000 DECENT",
   },
   {
     title: "Marketing",
     percent: "10%",
-    amount: "2, 100, 000, 000 DECENT",
+    amount: "21, 000, 000 DECENT",
   },
   {
     title: "Treasury",
-    percent: "10%",
-    amount: "2, 100, 000, 000 DECENT",
+    percent: "5%",
+    amount: "10, 500, 000 DECENT",
   },
   {
-    title: "ICO",
-    percent: "10%",
-    amount: "2, 100, 000, 000 DECENT",
+    title: "DECENT Offer",
+    percent: "25%",
+    amount: "52, 500, 000 DECENT",
   },
   {
     title: "Exchange Liquidity",
-    percent: "55%",
-    amount: "11, 550, 000, 000 DECENT",
+    percent: "40%",
+    amount: "84, 000, 000 DECENT",
   },
 ];
 
@@ -54,9 +53,9 @@ export default function Tokenomics() {
       <section className="w-full flex flex-col lg:flex-row gap-20 mt-10 py-10">
         {/* desc */}
         <div className="w-full lg:w-1/2 text-white">
-          <h2 className="text-[1.85rem] font-black">21,000,000,000</h2>
+          <h2 className="text-[1.85rem] font-black">210, 000, 000 DECENT</h2>
           <p className="text-[0.85rem] tracking-wider font-medium">
-            TOTAL SUPPLY
+            MAXIMUM SUPPLY
           </p>
 
           <p className="mt-7">

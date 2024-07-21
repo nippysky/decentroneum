@@ -27,10 +27,10 @@ export default function About() {
           </div>
 
           <p className="text-[0.85rem] lg:text-center lg:px-32 mt-5">
-            We are committed to total decentralization, building and supporting
-            fully decentralized products on the Electroneum Smart Chain.
-            decentroneum empowers users with transparency, security, and
-            complete control over their digital interactions.
+            Decentroneum is committed to total decentralization, building and
+            supporting fully decentralized products. Decentroneum empowers users
+            with transparency, security, and complete control over their digital
+            interactions, making Web3 easy and fun.
           </p>
         </DecentCard>
 
@@ -38,8 +38,7 @@ export default function About() {
           <SmallHeading title={"MISSION"} textColor={"text-decentPrimary"} />
 
           <p className="text-[0.85rem]  mt-5">
-            Building decent-Apps that make the Electroneum smart chain
-            interesting for everyone.
+            Empowering users to own their digital future.
           </p>
         </DecentCard>
 
@@ -47,7 +46,7 @@ export default function About() {
           <SmallHeading title={"VISION"} textColor={"text-decentPrimary"} />
 
           <p className="text-[0.85rem]  mt-5">
-            Become the best decent platform on the Electroneum smart chain.
+            Building a seamless and accessible Web3 for all.
           </p>
         </DecentCard>
       </div>

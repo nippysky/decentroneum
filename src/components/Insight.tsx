@@ -80,34 +80,15 @@ export default function Insight() {
         <div className="w-full flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
-              THE BRAND LOYALTY
+              THE BRAND INTEGRITY
             </h5>
             <p>
-              In past, present and moving forward, decentroneum will always
-              follow the brand guide. Our colors is always applied in our
-              doings. If you don't see an authentic representation of the decent
-              brand, then it is not{" "}
-              <span className=" font-bold">decentroneum.</span> It is not being
-              decent.
+              As a decent platform, all 21 000, 000, 000 DECENT tokens will be
+              initially made availbale for trade on an electronuem smart chain
+              DEX.
             </p>
           </div>
 
-          {/* Image */}
-          <div className="w-full md:w-1/2 hidden md:flex">
-            <Image
-              src={DecentBrand}
-              alt={"Decent Brand"}
-              width={150}
-              height={150}
-              priority
-              unoptimized
-              className=" animate-pulse"
-            />
-          </div>
-        </div>
-
-        {/* THE INTEGRITY*/}
-        <div className="w-full flex flex-col md:flex-row items-center gap-10">
           {/* Image */}
           <div className="w-full md:w-1/2 hidden md:flex">
             <Image
@@ -120,15 +101,34 @@ export default function Insight() {
               className=" animate-pulse"
             />
           </div>
+        </div>
+
+        {/* THE INTEGRITY*/}
+        <div className="w-full flex flex-col md:flex-row items-center gap-10">
+          {/* Image */}
+          <div className="w-full md:w-1/2 hidden md:flex">
+            <Image
+              src={DecentBrand}
+              alt={"Decent Brand"}
+              width={150}
+              height={150}
+              priority
+              unoptimized
+              className=" animate-pulse"
+            />
+          </div>
 
           <div className="w-full md:w-1/2 ">
             <h5 className="big-text font-black tracking-wide leading-normal bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 my-2 text-[1.2rem]">
-              THE BRAND INTEGRITY
+              THE BRAND LOYALTY
             </h5>
             <p>
-              As a total decent platform, all 21 000, 000, 000 DECENT tokens
-              will be initially made availbale for trade on an electronuem smart
-              chain DEX. There will be no listing on a CEX.
+              In past, present and moving forward, decentroneum will always
+              follow the brand guide. Our colors is always applied in our
+              doings. If you don't see an authentic representation of the decent
+              brand, then it is not{" "}
+              <span className=" font-bold">decentroneum.</span> It is not being
+              decent.
             </p>
           </div>
         </div>

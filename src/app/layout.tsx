@@ -7,9 +7,9 @@ import Header from "@/components/Header";
 const FONT = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "decentroneum - empowering the electroneum ecosystem",
+  title: "Decentroneum - Growing a decentralized ecosystem.",
   description:
-    "Growing a decentralized ecosystem by leveraging the Electroneum Smart Chain.",
+    "Decentroneum is committed to total decentralization, building and supporting fully decentralized products. Decentroneum empowers users with transparency, security, and complete control over their digital interactions, making Web3 easy and fun.",
 };
 
 export default function RootLayout({
