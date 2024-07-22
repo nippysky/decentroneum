@@ -35,7 +35,7 @@ export default function Header() {
   const randomSide = getRandomSide();
 
   return (
-    <header className="flex justify-between items-center lg:px-32 md:px-10 px-5 max-w-7xl mx-auto pt-3">
+    <header className="sticky top-0 z-50 bg-decentBG flex justify-between items-center lg:px-32 md:px-10 px-5 py-2 border-b border-b-decentPrimary border-b-hairline bg-opacity-95">
       {/* Logo */}
       <Link className=" flex items-center gap-5 w-auto" href={"/"}>
         <Image src={Logo} alt="Decent Icon" width={50} height={50} priority />

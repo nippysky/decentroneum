@@ -4,7 +4,7 @@ import BigHeading from "./shared/BigHeading";
 import Image from "next/image";
 
 import DecentIcon from "../../public/assets/DECENT3D.svg";
-import DecentChart from "../../public/assets/CHART.svg";
+import DecentFlame from "../../public/assets/DECENTFLAME.svg";
 import DecentBrand from "../../public/assets//BRANDTAG.svg";
 
 export default function Insight() {
@@ -53,9 +53,9 @@ export default function Insight() {
           {/* Image */}
           <div className="w-full md:w-1/2 hidden md:flex">
             <Image
-              src={DecentChart}
-              alt={"Decent Chart"}
-              width={150}
+              src={DecentFlame}
+              alt={"Decent Flame"}
+              width={200}
               height={150}
               priority
               unoptimized
@@ -110,7 +110,7 @@ export default function Insight() {
             <Image
               src={DecentBrand}
               alt={"Decent Brand"}
-              width={150}
+              width={200}
               height={150}
               priority
               unoptimized

@@ -40,9 +40,9 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Header />
-        <main className="max-w-7xl flex flex-col mx-auto">{children}</main>
+        <main className="flex-grow max-w-7xl mx-auto">{children}</main>
         <Footer />
         <ScrollUp />
       </body>
