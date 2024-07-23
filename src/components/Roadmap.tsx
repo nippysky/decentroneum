@@ -26,72 +26,72 @@ import Road from "../../public/assets/ROAD.svg";
 const roadmap = [
   {
     step: 1,
-    title: "Platform Launch & Vision",
+    title: "Decent Wallet Extension",
     description:
-      "Establish a social media presence and present the DECENT paper, outlining the future vision of Decentroneum.",
+      "Develop and release the Decent Wallet extension to establish a user base and introduce the platform's vision.",
     icon: One,
   },
   {
     step: 2,
-    title: "DECENT Token Deployment",
+    title: "Decent Wallet D-App",
     description:
-      "Create and deploy the DECENT token to the blockchain according to defined specifications. This involves writing a secure smart contract that meets industry standards.",
+      "Launch the Decent Wallet D-App, providing users with a secure and convenient way to manage their digital assets.",
     icon: Two,
   },
   {
     step: 3,
-    title: "DECENT Token Offering",
+    title: "Decent Mobile Wallet App",
     description:
-      "Conduct a DECENT token offering to raise funds from early investors. This includes marketing and managing the sale process.",
+      "Create and deploy the Decent Mobile Wallet App, offering a mobile solution for users to access their assets on the go.",
     icon: Three,
   },
   {
     step: 4,
-    title: "Airdrop for Early Investors",
+    title: "Decent News D-App",
     description:
-      "Distribute DECENT tokens via airdrop to participants in the DECENT token offering. The amount received will be proportional to their allocation in the offering.",
+      "Introduce the Decent News D-App to keep the community informed with the latest updates and developments.",
     icon: Four,
   },
   {
     step: 5,
-    title: "Public Airdrop",
+    title: "Decent Token Deployment",
     description:
-      "Conduct a public airdrop as a marketing strategy to attract new community members.",
+      "Deploy the DECENT token to the blockchain, ensuring a secure and reliable token launch.",
     icon: Five,
   },
   {
     step: 6,
-    title: "Token Release and Distribution",
+    title: "Decent Token Offering",
     description:
-      "Officially release and distribute DECENT tokens to DECENT token offering participants, airdrop recipients, and other stakeholders. This ensures everyone with a stake in Decentroneum receives their tokens.",
+      "Conduct the DECENT token offering to raise funds and engage early investors in the platform.",
     icon: Six,
   },
   {
     step: 7,
-    title: "DECENT Exchange Launch",
+    title: "Airdrop for Early Community",
     description:
-      "Launch the DECENT exchange, a decentralized exchange powered by the Electroneum Smart Chain (ETN-SC) tokens. The DECENT token will also begin trading here.",
+      "Distribute DECENT tokens to early community members as part of an airdrop initiative to grow the user base.",
     icon: Seven,
   },
   {
     step: 8,
-    title: "Infinity Draw DApp Launch",
+    title: "Decent Exchange",
     description:
-      "Launch a smart contract for a lucky draw DApp (decentralized application) to engage the community and incentivize participation. This aims to attract more users and generate excitement around Decentroneum and Electroneum.",
+      "Launch the Decent Exchange, a decentralized platform for trading ETN-SC Tokens.",
     icon: Eight,
   },
   {
     step: 9,
-    title: "DECENT Wallet Launch",
+    title: "The ETN-SC Tokens Data Platform",
     description:
-      "Launch the DECENT wallet, initially powered by the Electroneum Smart Chain and supporting ETN-SC tokens only.",
+      "Introduce the ETN-SC Tokens Data Platform to provide comprehensive data and analytics for ETN-SC tokens.",
     icon: Nine,
   },
   {
     step: 10,
-    title: "Audit & Ongoing Development",
+    title: "Launch of Roadmap V2",
     description:
-      "Conduct a comprehensive audit of Decentroneum. This stage also involves continuous development, addressing any identified issues, and incorporating updates and new features.",
+      "Release the second version of the roadmap, outlining future plans and ongoing development efforts.",
     icon: Ten,
   },
 ];
@@ -100,10 +100,7 @@ export default function Roadmap() {
   return (
     <section className="flex flex-col lg:px-32 md:px-10 px-5 py-20">
       <div className="text-center lg:px-40 px-5">
-        <SmallHeading
-          title={"THE INITIAL ROADMAP"}
-          textColor="text-decentTextAlt"
-        />
+        <SmallHeading title={"THE ROADMAP V1"} textColor="text-decentTextAlt" />
         <BigHeading
           fontSize={"lg:text-[2.5rem]"}
           title={"Here is how we hit the ground running"}

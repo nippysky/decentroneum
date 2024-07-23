@@ -18,7 +18,6 @@ export default function Home() {
       <Hero />
       <About />
       <Insight />
-      <Tokenomics />
       <Roadmap />
       <Community />
     </>

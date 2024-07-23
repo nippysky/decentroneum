@@ -27,10 +27,14 @@ export default function About() {
           </div>
 
           <p className="text-[0.85rem] lg:text-center lg:px-32 mt-5">
-            Decentroneum is committed to total decentralization, building and
-            supporting fully decentralized products. Decentroneum empowers users
-            with transparency, security, and complete control over their digital
-            interactions, making Web3 easy and fun.
+            Decentroneum is a cutting-edge Web3 platform dedicated to the
+            principles of decentralization and the tokenization of real-world
+            experiences. The mission is to transform various aspects of everyday
+            life by leveraging the power of blockchain technology. Whether it's
+            finance, entertainment, education, or beyond, Decentroneum empowers
+            users to take control of their digital interactions and assets in a
+            truly decentralized manner. Join in the journey to create a more
+            open, transparent, and equitable world.
           </p>
         </DecentCard>
 

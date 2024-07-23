@@ -27,10 +27,11 @@ export default function Insight() {
               THE BRAND NAME
             </h5>
             <p>
-              The name <span className=" font-bold">decentroneum</span> combines
-              two key words: Decentralization and Electroneum. Decentralization
-              is a core principle in cryptocurrency, and our name reflects our
-              commitment to the Electroneum ecosystem.
+              The name <span className=" font-bold">Decentroneum</span> combines
+              two fundamental concepts: Decentralization and Electroneum.
+              Decentralization is a core principle in cryptocurrency, and our
+              name reflects our unwavering commitment to both the principles of
+              decentralization and the Electroneum ecosystem.
             </p>
           </div>
 
@@ -68,10 +69,10 @@ export default function Insight() {
               THE DECENT TREND
             </h5>
             <p>
-              Being decent refers to actively participating in and supporting
-              the decentroneum ecosystem. we intgerchanged the word:
-              decentralize(d) to decent. You are encouraged to be decent, it
-              means to get involved.
+              Being "decent" refers to actively participating in and supporting
+              the Decentroneum ecosystem. We've redefined "decent" to mean
+              embracing and promoting decentralization. We encourage you to be
+              "decent" by getting involved and contributing to our community.
             </p>
           </div>
         </div>
@@ -83,9 +84,8 @@ export default function Insight() {
               THE BRAND INTEGRITY
             </h5>
             <p>
-              As a decent platform, all 21 000, 000, 000 DECENT tokens will be
-              initially made availbale for trade on an electronuem smart chain
-              DEX.
+              As a "decent" platform, all 210,000,000 DECENT tokens will
+              initially be available for trade on a decentralized exchange.
             </p>
           </div>
 
@@ -123,12 +123,11 @@ export default function Insight() {
               THE BRAND LOYALTY
             </h5>
             <p>
-              In past, present and moving forward, decentroneum will always
-              follow the brand guide. Our colors is always applied in our
-              doings. If you don't see an authentic representation of the decent
-              brand, then it is not{" "}
-              <span className=" font-bold">decentroneum.</span> It is not being
-              decent.
+              In the past, present, and future, Decentroneum will always adhere
+              to our brand guidelines. Our colors and branding are consistently
+              applied in everything we do. If you don't see an authentic
+              representation of the Decent brand, then it is not Decentroneum.
+              It is not being "decent."
             </p>
           </div>
         </div>

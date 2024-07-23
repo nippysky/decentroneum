@@ -8,11 +8,6 @@ import DecentCard from "./shared/DecentCard";
 
 const menuLinks = [
   {
-    title: "Explore D-Apps",
-    icon: <MdApps size={25} />,
-    url: "/d-apps",
-  },
-  {
     title: "Decent Paper",
     icon: <TiDocumentText size={25} />,
     url: "/d-apps",
@@ -22,6 +17,12 @@ const menuLinks = [
     icon: <Hexagon size={25} />,
     url: "/d-apps",
   },
+
+  {
+    title: "Explore Our Doings",
+    icon: <MdApps size={25} />,
+    url: "/d-apps",
+  },
 ];
 
 export default function MenuContent() {
@@ -29,7 +30,7 @@ export default function MenuContent() {
     <ScrollArea className="w-full h-screen text-decentBG">
       <section className="flex flex-col lg:px-32 md:px-10 px-5 py-20">
         {/* Decent Offer Banner */}
-        <div className="w-full bg-decentBG lg:p-10 p-5 text-white">
+        {/* <div className="w-full bg-decentBG lg:p-10 p-5 text-white">
           <div className=" flex flex-col justify-center items-center space-y-5">
             <h1 className="text-[1.5rem] md:text-[2rem] font-bold text-center">
               Join in the{" "}
@@ -44,7 +45,7 @@ export default function MenuContent() {
               Partake in Offer
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* /////////////////////////////// */}
         {/* LINKS */}

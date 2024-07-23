@@ -28,14 +28,14 @@ export default function Hero() {
             className=" flex items-center gap-3 hover:text-white transition duration-300 ease-in-out"
           >
             <MdApps size={25} />
-            Explore d-apps
+            Explore the doings
           </Link>
           <Link
             href={"/"}
             className=" flex items-center gap-3 hover:text-white transition duration-300 ease-in-out"
           >
             <TiDocumentText size={25} />
-            Decent paper
+            Read the decent paper
           </Link>
         </div>
       </div>
